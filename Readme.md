@@ -1,26 +1,17 @@
 # API Ping
-
 ## Description
-Une API simple qui retourne les headers de la requête en JSON lorsqu'on effectue un `GET /ping`.
-Toute autre requête renvoie une réponse vide avec un code `404`.
+API de test pour le projet. Cette API permet de vérifier la connectivité et la disponibilité du service.
 
-## Installation et exécution
+# Lancer le projet
 
-### Prérequis
-- Node.js installé
+## Installation des dépendances :
 
-### Installation
-```sh
+```
 npm install
 ```
 
-### Lancement
-```sh
-PING_LISTEN_PORT=4000 node index.js
-```
-Par défaut, l'API écoute sur le port `3000` si `PING_LISTEN_PORT` n'est pas défini.
+## Lancement du serveur web :
 
-### Exemple de requête
-```sh
-curl -X GET http://localhost:3000/ping
+```
+npx tsx index.ts
 ```
