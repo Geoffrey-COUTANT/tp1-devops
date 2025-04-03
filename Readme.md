@@ -1,6 +1,6 @@
 # API Ping
 ## Description
-API de test pour le projet. Cette API permet de vérifier la connectivité et la disponibilité du service.
+API de test pour le projet. Cette API permet de vérifier la connectivité un port modifiable (8000 par défaut) et la disponibilité du service.
 
 # Lancer le projet
 
