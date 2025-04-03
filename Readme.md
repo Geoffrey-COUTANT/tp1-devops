@@ -9,6 +9,10 @@ API de test pour le projet. Cette API permet de vérifier la connectivité un po
 ```
 npm install
 ```
+ou
+```
+yarn install
+```
 
 ## Lancement du serveur web :
 
