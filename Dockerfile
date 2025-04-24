@@ -31,4 +31,4 @@ USER appuser
 EXPOSE 8000
 
 # Lancer l’application
-CMD ["tsx", "index.js"]
+CMD ["node", "dist/index.js"]
